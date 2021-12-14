@@ -20,10 +20,10 @@ app.listen('3001', () => {
   console.log("server started on port 3001");
 });
 
-app.get('/externalId', (req, res) => {
+app.get('/externalId/:contentful_token', (req, res) => {
 
   console.log("Receiving Request...");
-  let sql = 'SELECT * FROM articles WHERE contentful_token="7vDv2ArVDONdFlfaFc3wh3";';
+  let sql = `SELECT * FROM articles WHERE contentful_token="${req.params.contentful_token}";`;
   db.query(sql, (err, result) => {
     let externalId = `${result[0].external_id}`;
     res.header('Access-Control-Allow-Origin', "*");
