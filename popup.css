@@ -1,0 +1,13 @@
+#navigate {
+    background-color: #008539;
+    border-radius: 5px;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+}
+
+#navigate:focus,
+#navigate:hover {
+    background-color: #006d23;
+    color: White;
+}
