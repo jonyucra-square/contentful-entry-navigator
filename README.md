@@ -21,4 +21,4 @@ Toggle `Developer mode`
 
 ### Go from Contentful Entry to Supportcenter Article
 
-On Contentful, go to a "Support Article" entry. On this page, click on the extension icon in the task bar. If the server is running and you have an instance of the local DB, and you're running supportcenter locally, you should be redirected to the corresponding Supportcenter Article for this Contentful entry.
+On Contentful, go to a "Support Article" entry. On this page, click on the extension icon in the task bar. If the server is running, you have an instance of the local DB, and you're running supportcenter locally, you should be redirected to the corresponding Supportcenter Article for this Contentful entry.
